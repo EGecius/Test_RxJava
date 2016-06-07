@@ -27,7 +27,7 @@ android {
 
     defaultConfig {
         applicationId "lt.gecius.test_rxjava"
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -42,7 +42,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'io.reactivex:rxjava:1.0.12'
     compile 'io.reactivex:rxandroid:0.25.0'
+    compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
+    compile 'com.android.support:design:22.2.1'
 }
